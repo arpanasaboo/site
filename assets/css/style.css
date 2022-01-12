@@ -51,7 +51,7 @@ p {
   margin: 25px 0;
   padding: 0;
   font-size: 15px;
-  color: #362d2d;
+  color: #776b6b;
   line-height: 28px;
 }
 
@@ -532,7 +532,7 @@ cb{
 /*  Research
 /*-----------------------------------------------------------------------------------*/
 #Research{
-  background: url("../img/research.jpg") repeat scroll center center/cover;
+  /* background: url("../img/research.jpg") repeat scroll center center/cover; */
   width: 100%;
   height: auto;
   background: #a89b9b;
@@ -549,7 +549,7 @@ cb{
   box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
   margin-top: -60px;
   margin-left: 40px;
-  height: 400px;
+  height: 40px;
   -o-object-fit: cover;
   object-fit: cover;
 }
