@@ -539,10 +539,10 @@ cb{
   padding-top: 120px;
 }
 
-#Research.div-img-bg {
+/* #Research.div-img-bg {
   padding-bottom: 30px;
   border: 20px solid #b8a07e;
-}
+} */
 
 #Research.div-img-bg .Research-img img {
   width: 50%;
@@ -576,10 +576,10 @@ cb{
   padding-top: 120px;
 }
 
-#Education.div-img-bg {
+/* #Education.div-img-bg {
   padding-bottom: 30px;
   border: 20px solid #b8a07e;
-}
+} */
 
 #Education.div-img-bg .Education-img img {
   width: 50%;
@@ -608,14 +608,14 @@ cb{
 #Conferences{
   width: 100%;
   height: auto;
-  background: #2d2d38;
+  background: #757577;
   padding-top: 120px;
 }
 
-#Conferences.div-img-bg {
+/* #Conferences.div-img-bg {
   padding-bottom: 30px;
   border: 20px solid #b8a07e;
-}
+} */
 
 #Conferences.div-img-bg .Conference-img img {
   width: 50%;
@@ -637,7 +637,45 @@ cb{
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
-} */
+} 
+
+/*-----------------------------------------------------------------------------------*/
+/*  Publications
+/*-----------------------------------------------------------------------------------*/
+#Publications {
+  width: 100%;
+  height: auto;
+  background: #110202;
+  padding-top: 120px;
+}
+
+#Publications .div-img-bg {
+  padding-bottom: 30px;
+  border: 20px solid #b8a07e;
+}
+
+#Publications .div-img-bg .Publications-img img {
+  width: 100%;
+  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+  margin-top: -60px;
+  margin-left: 40px;
+  height: 400px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+#Publications .Publications-descr .p-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 34px;
+  text-align: left;
+}
+
+#Publications .Publications-descr .separator {
+  max-width: 80%;
+  margin-bottom: 0;
+  text-align: left;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
