@@ -34,6 +34,39 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <title>Dynamic Image Example</title>
+  <script>
+    function changeImage(imageId, newSrc) {
+      var image = document.getElementById(imageId);
+      image.src = newSrc;
+    }
+  </script>
+  <title>Multiple Images Example</title>
+  <style>
+    /* Style the images */
+    img {
+      width: 250px;
+      height: 100px;
+      object-fit: cover;
+      margin: 8px;
+      border: 2px solid black;
+    }
+
+    image {
+      width: 5000px;
+      height: 100px;
+      object-fit: cover;
+      margin: 10px;
+      border: 2px solid black;
+    }
+
+    /* Create a gallery layout */
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  </style>
 </head>
 
 <body>
@@ -55,6 +88,7 @@
           <li><a class="nav-link  scrollto" href="#Awards&Honours">Awards & Honours</a></li>
           <li><a class="nav-link  scrollto" href="#Conferences">Conferences & Seminars </a></li>
           <li><a class="nav-link  scrollto" href="#Publications">Publications</a></li>
+          <li><a class="nav-link  scrollto" href="#Gallery">Gallery</a></li>
           <li><a class="nav-link  scrollto" href="#TeachingExperience">Teaching Experience</a></li>
           <!-- <li><a class="nav-link  scrollto" href="#journal">Blog</a></li> -->
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
@@ -99,6 +133,8 @@
               href="https://www.linkedin.com/in/arpana-saboo-a03a34201?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bzc964u%2FqRsy9o1%2BHznlS7w%3D%3D"><i
                 class="bi bi-linkedin"></i></a></li>
           <li><a href="https://www.researchgate.net/profile/Arpana-Saboo"><i class="bi bi-person-fill"></i></a></li>
+          <li><a href="https://scholar.google.com/citations?user=MxF3nWEAAAAJ&hl=en&oi=ao"><i
+                class="bi bi-googlescholar"></i></a></li>
 
 
         </ul>
@@ -233,8 +269,8 @@
             <!-- <div class="div-img-bg"> -->
             <div class="Research-img">
               <img src="assets/img/diagram.png" class="img-responsive img-fluid" width="50%" alt="" align="left">
-              <img src="assets/img/diagram.png" class="img-responsive img-fluid" width="50%" alt="" align="right">
-              <img src="assets/img/BEC1.png" class="img-responsive img-fluid" width="100%" alt="" align="right">
+              <img src="assets/img/soc_rot.png" class="img-responsive img-fluid" width="50%" alt="" align="right">
+
 
 
             </div>
@@ -489,6 +525,77 @@
           </div>
         </div>
       </div><!-- End Publications Section -->
+      <!-- ======= Gallery Section ======= -->
+      <div id="Gallery" class="paddsection">
+        <div class="container">
+          <div class="row justify-content-between">
+
+            <div class="col-lg-4 ">
+
+
+
+            </div>
+
+            <div class="col-lg-7">
+              <div class="Gallery-descr">
+
+                <p class="p-heading">
+                <h1 style="color:rgb(29, 16, 16)">Gallery </h1><br>
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="assets/img/France1.jpeg" class="img-fluid">
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/img/France2.jpeg" class="img-fluid">
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/img/France3.jpeg" class="img-fluid">
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/img/France4.jpeg" class="img-fluid">
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/img/France5.jpeg" class="img-fluid">
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/img/ICTS2.jpeg" class="img-fluid">
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/img/ICTS1.jpeg" class="img-fluid">
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/img/grouppicture2.JPG" class="img-fluid">
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/img/ICTS.jpeg" class="img-fluid">
+                  </div>
+
+                  <!-- <h1>Dynamic Image Example</h1>
+                  <h1>Multiple Dynamic Images Example</h1> -->
+                  <!-- <img id="image1" src="assets/img/France1.jpeg" alt="Original Image 1">
+                  <br>
+                  <button onclick="changeImage('image1', 'assets/img/BEC1.png')">Change Image 1</button>
+                  <br>
+                  <img id="image2" src="original_image2.jpg" alt="Original Image 2">
+                  <br>
+                  <button onclick="changeImage('image2', 'new_image2.jpg')">Change Image 2</button>
+                  <br>
+                  <img id="image3" src="original_image3.jpg" alt="Original Image 3">
+                  <br>
+                  <button onclick="changeImage('image3', 'new_image3.jpg')">Change Image 3</button> -->
+                </div>
+                <!-- <h1>Multiple Images Example</h1> -->
+                <!-- <div class="gallery">
+                  <img src="assets/img/France1.jpeg" alt="Image 1">
+                  <img src="image2.jpg" alt="Image 2">
+                  <img src="image3.jpg" alt="Image 3">
+                </div> -->
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div><!-- End Gallery Section -->
 
       <!-- ======= Teaching Experience Section ======= -->
       <div id="TeachingExperience" class="paddsection">
